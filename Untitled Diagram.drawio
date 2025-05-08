@@ -1,0 +1,55 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.4 Safari/605.1.15" version="27.0.1">
+  <diagram name="Page-1" id="BmBkRYyunxgq28QdBjjr">
+    <mxGraphModel dx="933" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="hOvi71Y8hboq0sogjjy9-2" value="Pembeli&amp;nbsp;" style="swimlane;whiteSpace=wrap;html=1;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="270" y="40" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-3" value="- nama : String&lt;div&gt;- alamat : String&lt;/div&gt;&lt;div&gt;- saldo : Double&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="hOvi71Y8hboq0sogjjy9-2">
+          <mxGeometry x="35" y="40" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-24" value="Kain" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="290" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-29" value="- Jenis : Striing&lt;div&gt;- harga : Double&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="320" width="180" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-30" value="+ setJenis()&lt;div&gt;+ getJenis()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ setHarga()&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ getHarga()&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ hitungTotal()&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="180" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="hOvi71Y8hboq0sogjjy9-31" target="hOvi71Y8hboq0sogjjy9-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-31" value="&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;+ setNama() &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp;+ getNama() &amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; &lt;/span&gt;&lt;span style=&quot;font-size: 12.000001px;&quot;&gt;+ setAlamat() &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;&amp;nbsp; &amp;nbsp; + getAlamat() &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ setSaldo()&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;+ getSaldo()&amp;nbsp;&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="160" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-38" value="Celana" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="520" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-39" value="Kemeja" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="520" width="126" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.592;entryY=-0.075;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hOvi71Y8hboq0sogjjy9-30" target="hOvi71Y8hboq0sogjjy9-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.6;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="hOvi71Y8hboq0sogjjy9-30" target="hOvi71Y8hboq0sogjjy9-39">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-53" value="&lt;div&gt;- ukuran: String&amp;nbsp;&lt;/div&gt;&lt;div&gt;- lengan: String&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-57" value="&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;- ukuran: String&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;- lengan: String&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="560" width="126" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-58" value="&lt;div&gt;+ setUkuran()&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp; + getUkuran() &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;+ hitungTotal()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="620" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="hOvi71Y8hboq0sogjjy9-59" value="&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ setUkuran()&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;&amp;nbsp; + getUkuran() &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 12.000001px;&quot;&gt;+ hitungTotal()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="414" y="620" width="126" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
